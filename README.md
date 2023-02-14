@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="yK1ptbUGl16J4U7vdbSnPwhqLdkqXx101Pw9uplAHM4" />
+
 [![](https://raw.githubusercontent.com/SaitoTsutomu/SaitoTsutomu/master/profile-summary-card-output/vue/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 [![](https://raw.githubusercontent.com/SaitoTsutomu/SaitoTsutomu/master/profile-summary-card-output/vue/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 [![](https://raw.githubusercontent.com/SaitoTsutomu/SaitoTsutomu/master/profile-summary-card-output/vue/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
