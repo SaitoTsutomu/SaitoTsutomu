@@ -1,17 +1,25 @@
 name: GitHub-Profile-Summary-Cards
 
 on:
-  schedule: # execute at 10:30(01:30)
-    - cron: '30 10 * * *'
+  schedule: # execute monthly at 14:30 UTC on day 1 (23:30 JST)
+    - cron: '30 14 1 * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-summary-cards
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate
+    timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
